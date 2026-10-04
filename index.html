@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+
+<head>
+    <title>NextGen Student Registration</title>
+</head>
+
+<body>
+
+    <header>
+        <center>
+            <h1 class="x">Student Registration Form</h1>
+            <p>Welcome to NextGen Tech Training. Please complete the form below to register for your preferred programme.</p>
+        </center>
+    </header>
+
+    <main>
+
+        <section>
+
+            <form>
+
+                <h2>Personal Information</h2>
+
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" required>
+
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" required>
+
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="number" name="phone" id="phone">
+
+                <br><br>
+
+                <label for="date">Date of Birth:</label>
+                <input type="date" name="date" id="date">
+
+                <h2>Programme Choice</h2>
+
+                <label for="programme">Which programme would you like to study?</label>
+
+                <select name="programme" id="programme" required>
+                    <option value="">Select a programme</option>
+                    <option>Frontend Development</option>
+                    <option>Backend Development</option>
+                    <option>Data Analysis</option>
+                    <option>Product Management</option>
+                    <option>AI Fundamentals</option>
+                </select>
+
+                <br><br>
+
+                <label>What is your preferred learning mode?</label>
+
+                <input type="radio" name="learning-mode" value="Physical">
+                Physical
+
+                <input type="radio" name="learning-mode" value="Online">
+                Online
+
+                <input type="radio" name="learning-mode" value="Hybrid">
+                Hybrid
+
+                <h2>Interests</h2>
+
+                <label>Which areas are you interested in?</label>
+
+                <input type="checkbox" name="interest" value="Web Development">
+                Web Development
+
+                <input type="checkbox" name="interest" value="Data Analysis">
+                Data Analysis
+
+                <input type="checkbox" name="interest" value="UI/UX Design">
+                UI/UX Design
+
+                <input type="checkbox" name="interest" value="Artificial Intelligence">
+                Artificial Intelligence
+
+                <input type="checkbox" name="interest" value="Cybersecurity">
+                Cybersecurity
+
+                <h2>Country</h2>
+
+                <label for="country">Select your country:</label>
+
+                <select name="country" id="country" required>
+                    <option value="">Select country</option>
+                    <option>Nigeria</option>
+                    <option>Ghana</option>
+                    <option>Kenya</option>
+                    <option>South Africa</option>
+                    <option>United Kingdom</option>
+                    <option>Other</option>
+                </select>
+
+                <h2>Message</h2>
+
+                <label for="message">Why do you want to join this programme?</label>
+
+                <p>Tell us briefly about your goals...</p>
+
+                <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Tell us about your goals..."
+                    rows="7"
+                    cols="40"></textarea>
+
+                <br><br>
+
+                <button type="submit">Register Now</button>
+
+            </form>
+
+        </section>
+
+        <article>
+
+            <h2>About Programme</h2>
+
+            <p>
+                Our programmes are designed to help students develop practical
+                technology skills through structured learning and hands-on projects.
+            </p>
+
+        </article>
+
+        <aside>
+
+            <h2>Registration Tips</h2>
+
+            <ul>
+                <li>Use an active email address.</li>
+                <li>Choose a programme that matches your interests.</li>
+                <li>Make sure your information is correct before submitting.</li>
+            </ul>
+
+        </aside>
+
+        <center>
+
+            <h2>FAQ</h2>
+
+            <details>
+
+                <summary>What happens after I register?</summary>
+
+                <p>
+                    Our team will review your registration and contact you
+                    using the email address provided.
+                </p>
+
+            </details>
+
+        </center>
+
+    </main>
+
+</body>
+
+</html>
